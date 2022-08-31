@@ -18,3 +18,4 @@ use App\http\Controllers\HomePageControllers;
 //     return view('welcome');
 // });
 Route::get('/', [HomePageControllers::class, 'index'])->name('home');
+Route::get('admin/panel', [HomePageControllers::class, 'master'])->name('master.home');

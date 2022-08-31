@@ -10,4 +10,9 @@ class HomePageControllers extends Controller
     {
         return view('frontend.home.index');
     }
+
+    public function master()
+    {
+        return view('backend.dashbord.index');
+    }
 }
