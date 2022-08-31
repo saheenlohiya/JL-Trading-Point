@@ -104,6 +104,9 @@ section.why_choose_us .card {
 section.why_choose_us.py-5 a.btn.bg_transperant {
     color: #48a6eb;
 }
+.heading_light{
+    font-weight:300;
+}
 </style>
 </head>
 <body>
@@ -119,30 +122,30 @@ section.why_choose_us.py-5 a.btn.bg_transperant {
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-light text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item  " href="#">Icoprimex Platform</a></li>
-                              <li><a class="dropdown-item  " href="#">Covesting Module</a></li>
+                              <li><a class="dropdown-item  text-uppercase" href="#">Icoprimex Platform</a></li>
+                              <li><a class="dropdown-item  text-uppercase" href="#">Covesting Module</a></li>
                             </ul>
                           </li>
                           <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-light text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Markets
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item " href="#">Cryptocurrencies</a></li>
+                              <li><a class="dropdown-item text-uppercase" href="#">Cryptocurrencies</a></li>
                             </ul>
                           </li>
                           <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-light text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Trading Tools
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item " href="#">Cryptocurrency Price Charts</a></li>
-                              <li><a class="dropdown-item " href="#">Commodity Price Charts</a></li>
-                              <li><a class="dropdown-item " href="#">Copy Trading</a></li>
+                              <li><a class="dropdown-item text-uppercase" href="#">Cryptocurrency Price Charts</a></li>
+                              <li><a class="dropdown-item text-uppercase" href="#">Commodity Price Charts</a></li>
+                              <li><a class="dropdown-item text-uppercase" href="#">Copy Trading</a></li>
                             </ul>
                           </li>
                           <li class="nav-item dropdown">
@@ -150,13 +153,13 @@ section.why_choose_us.py-5 a.btn.bg_transperant {
                                 About
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item " href="#">About Us</a></li>
-                              <li><a class="dropdown-item " href="#">Fees and Conditions</a></li>
+                              <li><a class="dropdown-item text-uppercase" href="#">About Us</a></li>
+                              <li><a class="dropdown-item text-uppercase" href="#">Fees and Conditions</a></li>
                             </ul>
                           </li>
                     </ul>
-                    <button type="button" class="btn btn-success m-2">Login</button>
-                    <button type="button" class="btn btn-success m-2">Register</button>
+                    <button type="button" class="btn btn-success m-2 text-uppercase">Login</button>
+                    <button type="button" class="btn btn-success m-2 text-uppercase">Register</button>
                   </div>
                 </div>
               </nav>
@@ -257,8 +260,7 @@ section.why_choose_us.py-5 a.btn.bg_transperant {
 
 <section class="why_choose_us py-5">
     <div class="container py-5">
-        <h1 class="text-center mb-5 ">Why Choose us?
-</h1>
+        <h1 class="text-center mb-5 heading_light ">Why Choose us?</h1>
         <div class="row mb-4">
             <div class="card" style="width: 31%;">
                 <img src="./images/icon1.svg" class="card-img-top" alt="...">
@@ -315,42 +317,37 @@ section.why_choose_us.py-5 a.btn.bg_transperant {
 </section>
 <section class="image_with_content">
     <div class="container">
-        <h1 class="text-left mb-5 ">Maximize profits with leverage</h1>
+        <h1 class="text-left mb-5 heading_light">Maximize profits with leverage</h1>
         <p>Improve your trading results by using leverage (margin). Leverage is a powerful tool that allows you to open a position much larger in value than the amount you deposited</p>
-            <div class="col-6 row">
-                <div class="col">
-                    <p>If Bitcoin increased from $7,000 to $7,045 your return would be equal to:</p> 
-                    <a href="#" class="btn bg_transperant">Learn More <i class="fa-solid fa-angle-right"></i></a>
-                    <h1>+0.64%</h1>
-                    <P>without leverage</P>
+        <a href="#" class="btn bg_transperant mb-4">Learn More <i class="fa-solid fa-angle-right"></i></a>
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="heading_light mb-3">+0.64%</h1>
+                        <P>without leverage</P>
+                    </div>
+                    <div class="col">
+                        <h1 class="heading_light mb-3">+0.64%</h1>
+                        <P>without leverage</P>
+                    </div>
                 </div>
-                <div class="col">
-                    <p>If Bitcoin increased from $7,000 to $7,045 your return would be equal to:</p> 
-                    <a href="#" class="btn bg_transperant">Learn More <i class="fa-solid fa-angle-right"></i></a>
-                    <h1>+0.64%</h1>
-                    <P>without leverage</P>
-                </div>
+                <div class="row">
+                    <div class="col">
+                        <h1 class="heading_light mb-3">+0.64%</h1>
+                        <P>without leverage</P>
+                    </div>
+                    <div class="col">
+                        <h1 class="heading_light mb-3">+0.64%</h1>
+                        <P>without leverage</P>
+                    </div>
+                </div>  
+            </div>  
+            <div class="col-6">
+                 <img src="./images/trade.svg" class="d-block img-fluid" alt="...">
             </div>
+        </div>
     </div>
 </section>
 </body>
 </html>
-
-
-
-                <div class="col-6">
-                    <h1>+0.64%</h1>
-                    <P>without leverage</P>
-                </div>
-                <div class="col-6  d-flex">
-                    <h1>+0.64%</h1>
-                    <P>without leverage</P>
-                </div>
-                <div class="col-6">
-                    <h1>+0.64%</h1>
-                    <P>without leverage</P>
-                </div>
-                <div class="col-6">
-                    <h1>+0.64%</h1>
-                    <P>without leverage</P>
-                </div>
