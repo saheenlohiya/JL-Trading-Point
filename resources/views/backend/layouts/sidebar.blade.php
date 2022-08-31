@@ -18,8 +18,7 @@
                 <div class="user-account-info between-center">
                     <div class="user-account-main">
                         <h6 class="overline-title-alt">Available Balance</h6>
-                        <div class="user-balance">2.014095 <small class="currency currency-btc">BTC</small></div>
-                        <div class="user-balance-alt">18,934.84 <span class="currency currency-btc">BTC</span></div>
+                        <div class="user-balance">200 <small class="currency currency-btc">USD</small></div>
                     </div>
                     <a href="#" class="btn btn-white btn-icon btn-light"><em class="icon ni ni-line-chart"></em></a>
                 </div>
@@ -29,8 +28,7 @@
                             <span class="sub-text">Profits (7d)</span>
                         </div>
                         <div class="user-account-value">
-                            <span class="lead-text">+ 0.0526 <span class="currency currency-btc">BTC</span></span>
-                            <span class="text-success ml-2">3.1% <em class="icon ni ni-arrow-long-up"></em></span>
+                            <span class="lead-text"> 500 <span class="currency currency-btc">USD</span></span>
                         </div>
                     </li>
                     <li>
@@ -38,7 +36,7 @@
                             <span class="sub-text">Deposit in orders</span>
                         </div>
                         <div class="user-account-value">
-                            <span class="sub-text">0.005400 <span class="currency currency-btc">BTC</span></span>
+                            <span class="sub-text">300 <span class="currency currency-btc">USD</span></span>
                         </div>
                     </li>
                 </ul>
@@ -69,8 +67,8 @@
                 <div class="nk-profile-content toggle-expand-content" data-content="sidebarProfile">
                     <div class="user-account-info between-center">
                         <div class="user-account-main">
-                            <h6 class="overline-title-alt">Available Balance</h6>
-                            <div class="user-balance">2.014095 <small class="currency currency-btc">BTC</small></div>
+                            <h6 class="overline-title-alt">MAIN ACCOUNT BALANCE</h6>
+                            <div class="user-balance">200 <small class="currency currency-btc">USD</small></div>
                             <div class="user-balance-alt">18,934.84 <span class="currency currency-btc">BTC</span></div>
                         </div>
                         <a href="#" class="btn btn-icon btn-light"><em class="icon ni ni-line-chart"></em></a>
@@ -115,78 +113,47 @@
                         <h6 class="overline-title">Menu</h6>
                     </li>
                     <li class="nk-menu-item">
-                        <a href="html/crypto/index.html" class="nk-menu-link">
+                        <a href="#" class="nk-menu-link">
                             <span class="nk-menu-icon"><em class="icon ni ni-dashboard"></em></span>
                             <span class="nk-menu-text">Dashboard</span>
                         </a>
                     </li>
                     <li class="nk-menu-item">
-                        <a href="html/crypto/accounts.html" class="nk-menu-link">
-                            <span class="nk-menu-icon"><em class="icon ni ni-user-c"></em></span>
-                            <span class="nk-menu-text">My Account</span>
-                        </a>
-                    </li>
-                    <li class="nk-menu-item">
-                        <a href="html/crypto/wallets.html" class="nk-menu-link">
+                        <a href="#" class="nk-menu-link">
                             <span class="nk-menu-icon"><em class="icon ni ni-wallet-alt"></em></span>
-                            <span class="nk-menu-text">Wallets</span>
+                            <span class="nk-menu-text">Buy Bitcoin</span>
                         </a>
                     </li>
                     <li class="nk-menu-item">
-                        <a href="html/crypto/buy-sell.html" class="nk-menu-link">
+                        <a href="#" class="nk-menu-link">
                             <span class="nk-menu-icon"><em class="icon ni ni-coins"></em></span>
-                            <span class="nk-menu-text">Buy / Sell</span>
+                            <span class="nk-menu-text">Sell Bitcoin</span>
                         </a>
                     </li>
                     <li class="nk-menu-item">
-                        <a href="html/crypto/order-history.html" class="nk-menu-link">
-                            <span class="nk-menu-icon"><em class="icon ni ni-repeat"></em></span>
-                            <span class="nk-menu-text">Orders</span>
+                        <a href="#" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-wallet-alt"></em></span>
+                            <span class="nk-menu-text">Transactions</span>
                         </a>
                     </li>
                     <li class="nk-menu-item">
-                        <a href="html/crypto/chats.html" class="nk-menu-link">
-                            <span class="nk-menu-icon"><em class="icon ni ni-chat-circle"></em></span>
-                            <span class="nk-menu-text">Chats</span>
+                        <a href="#" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-user-c"></em></span>
+                            <span class="nk-menu-text">Investment</span>
                         </a>
                     </li>
                     <li class="nk-menu-item">
-                        <a href="html/crypto/profile.html" class="nk-menu-link">
+                        <a href="#" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-user-c"></em></span>
+                            <span class="nk-menu-text">Our Palns</span>
+                        </a>
+                    </li>
+                    <li class="nk-menu-item">
+                        <a href="#" class="nk-menu-link">
                             <span class="nk-menu-icon"><em class="icon ni ni-account-setting"></em></span>
                             <span class="nk-menu-text">My Profile</span>
                         </a>
                     </li>
-                    <li class="nk-menu-item">
-                        <a href="html/crypto/profile.html" class="nk-menu-link">
-                            <span class="nk-menu-icon"><em class="icon ni ni-account-setting"></em></span>
-                            <span class="nk-menu-text">My Profile</span>
-                        </a>
-                    </li>
-                    <li class="nk-menu-item">
-                        <a href="html/crypto/profile.html" class="nk-menu-link">
-                            <span class="nk-menu-icon"><em class="icon ni ni-account-setting"></em></span>
-                            <span class="nk-menu-text">My Profile</span>
-                        </a>
-                    </li>
-                    <li class="nk-menu-item">
-                        <a href="html/crypto/profile.html" class="nk-menu-link">
-                            <span class="nk-menu-icon"><em class="icon ni ni-account-setting"></em></span>
-                            <span class="nk-menu-text">My Profile</span>
-                        </a>
-                    </li>
-                    <li class="nk-menu-item">
-                        <a href="html/crypto/profile.html" class="nk-menu-link">
-                            <span class="nk-menu-icon"><em class="icon ni ni-account-setting"></em></span>
-                            <span class="nk-menu-text">My Profile</span>
-                        </a>
-                    </li>
-                    <li class="nk-menu-item">
-                        <a href="html/crypto/profile.html" class="nk-menu-link">
-                            <span class="nk-menu-icon"><em class="icon ni ni-account-setting"></em></span>
-                            <span class="nk-menu-text">My Profile</span>
-                        </a>
-                    </li>
-                    
                 </ul>
             </div>
         </div>
