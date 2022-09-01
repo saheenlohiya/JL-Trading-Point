@@ -22,7 +22,7 @@
         overflow-x: hidden;
     }
 .bg_dark{
-    background: #f7f7f7;
+    background: #004c86;
 }
 .bg_skyblue{
     background:#1E79A8;
@@ -33,6 +33,17 @@
     color:#fff;
     transition:all 0.5s;
     border-color:#004C86;
+}
+.bg_skyblue_light{
+    background:#1E79A8;
+    color:#fff;
+    border-color:#1E79A8;
+}
+.bg_skyblue_light:hover{
+    background:#0000;
+    color:#fff;
+    transition:all 0.5s;
+    border-color:#fff;
 }
 .bg_transparent{
     background-color:transparent;
@@ -72,6 +83,10 @@ a.nav-link.dropdown-toggle.text-light.text-uppercase, .navbar-expand-lg button.b
 a.navbar-brand img {
     height: 120px;
 }
+.navbar .dropdown-menu a.dropdown-item {
+    font-size: 14px;
+    font-weight: 600;
+}
 .img_col{
     margin-top:-8%;
 }
@@ -105,33 +120,57 @@ h1 {
 }
 /* ----------------------------- */
 .footer_section .share_icon , .footer_section ul{
-    justify-content: space-around;
+    /* justify-content: space-around; */
     list-style: none;
-    text-align:center;
+    padding:0;
+    /* text-align:center; */
 }
 h1 {
     font-weight: 800;
     font-size: 48px;
 }
+.footer_section li.footer_li {
+    margin-bottom:10px;
+}
+.footer_section p {
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
 .footer_section .share_icon li {
+    margin-right: 15px;
     height: 35px;
     width: 35px;
     text-align: center;
     line-height: 32px;
     font-size: 14px;
     border-radius: 50%;
-    border: 2px solid #fff;
-    background: #fff;
-    color: #000;
+    border: 2px solid #004c86;
+    background: #004c86;
+    color: #f8f9fa;
 }
 .footer_section .share_icon li:hover {
     background: transparent;
-    color: #fff;
+    color: #004c86;
+    border: 2px solid #004c86;
     transition: all 0.5s;
 }
-
+.footer_section .footer_li a {
+    text-decoration: none;
+}
+.footer_section .footer_li a {
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer_section  .footer_li a {
+    color: #000;
+}
+.footer_section  .footer_li a:hover {
+    color: #004c86;
+}
 a.btn.bg_transperant.text-capitalize {
-    border: 1px solid #000;
+    border: 1px solid #004c86;
+    color:#004c86;
 }
 a.btn.bg_transperant.text-capitalize:hover {
     border: 1px solid #1E79A8;
@@ -139,13 +178,14 @@ a.btn.bg_transperant.text-capitalize:hover {
     color:#fff;
     transition:all 0.5s;
 }
+
 section.why_choose_us .card:hover {
     transition:all 0.5s;
-    box-shadow: rgb(149 157 165 / 40%) 0px 8px 24px;
+    box-shadow: rgb(149 157 165 / 50%) 0px 8px 24px;
 }
 /* why section    */
 
-section.why_choose_us.py-5 .container .row {
+section.why_choose_us.py-lg-5 py-md-3 py-2 .container .row {
     justify-content: space-around;
 }
 section.why_choose_us.card-img, section.why_choose_us .card-img-bottom, section.why_choose_us .card-img-top {
@@ -159,7 +199,7 @@ section.why_choose_us .card {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border: none;
 }
-section.why_choose_us.py-5 a.btn.bg_transperant {
+section.why_choose_us.py-lg-5 py-md-3 py-2 a.btn.bg_transperant {
     color: #48a6eb;
 }
 .heading_light{
@@ -195,6 +235,61 @@ h5.card-title {
     margin: 15px;
     height: 200px;
     cursor:pointer;
+}
+
+/* cta section    */
+
+.cta_section .form-control{
+    height:40px;
+}
+.cta_section button.btn.btn-outline-light.bg_skyblue_light {
+    border-radius: 0 25px 25px 0;
+    height: 40px;
+}
+.cta_section .form-control {
+    border-radius: 25px 0 0 25px;
+}
+.why_choose_us .card, .blog_section .card{
+    width:31%;
+}
+               /* media query   */
+
+@media(max-width:992px){
+.image_with_content .row.align-items-center, .slider_with_header .carousel-caption .row {
+    flex-direction: column-reverse;
+}
+    .slider_with_header .carousel-caption {
+    top: 46%;
+    transform: translateY(-54%);
+}
+.img_col {
+    margin-top: 0%;
+}
+.slider_section .img-fluid {
+    max-width: 60%;
+    margin: auto;
+}
+h1.text-capitalize {
+    font-size: 32px;
+}
+.media_section .slick-slide {
+    margin: 15px;
+    height: 290px;
+    cursor: pointer;
+}
+.why_choose_us .card, .blog_section .card{
+    width:90%;
+}
+section.why_choose_us .card, .blog_section .card {
+    margin: 15px;
+}
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+    
+}
+.navbar-toggler{
+    border:2px solid #8c8e92;
+}
 }
 </style>
 </head>
@@ -267,16 +362,16 @@ h5.card-title {
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img src="./images/slide1.jpg" class="d-block w-100 slider_height" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <div class="row">
-                                <div class="col-6 text-left">
-                                    <h1>Next generation trading platform</h1>
+                                <div class="col-12 col-lg-6 text-left">
+                                    <h1 class="text-capitalize">Next generation trading platform</h1>
                                     <p>Trade Cryptocurrencies, Stock Indices, Commodities and Forex from a single account</p>
                                     <button type="button" class="btn bg_skyblue m-2 px-4 text-capitalize">Open free account</button>
                                     <button type="button" class="btn bg_skyblue m-2 px-4 text-capitalize">Preview platform</button>
                                 </div>
-                                <div class="col-6 px-5 img_col">
-                                    <div class="slider_box ms-5 text-left">
+                                <div class="col-12 col-lg-6 px-5 img_col">
+                                    <div class="slider_box ms-lg-5 ms-md-3 m-auto mb-2 mb-md-4 mb-lg-4 text-left">
                                         <p>24 hour volume (All markets)</p>
                                         <hr>
                                         <p>Trade with Icoprimex:</p>
@@ -289,7 +384,7 @@ h5.card-title {
                                             <li class="w-50">Fees from 0.001%</li>
                                         </ul>
                                         <button type="button" class="btn bg_skyblue m-2 w-100 text-capitalize">Start trading</button>
-                                        <p class="text-center mb-4">Registration takes only 40 seconds!</p>
+                                        <p class="text-center mb-lg-4 mb-md-3 mb-2">Registration takes only 40 seconds!</p>
                                         <ul class="d-flex share_icon">
                                             <li class=""><i class="fa-brands fa-angellist"></i></li>
                                             <li class=""><i class="fa-brands fa-twitter"></i></li>
@@ -304,29 +399,29 @@ h5.card-title {
                       </div>
                       <div class="carousel-item">
                         <img src="./images/slide2.jpg" class="d-block w-100 slider_height" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <div class="row">
-                                <div class="col-6 text-left">
-                                    <h1>Let top traders do the job for you!</h1>
+                                <div class="col-12 col-lg-6 text-left">
+                                    <h1 class="text-capitalize">Let top traders do the job for you!</h1>
                                     <p>Covesting allows you to automatically copy top-performing traders and achieve the same returns</p>
                                     <button type="button" class="btn bg_skyblue m-2 px-4 text-capitalize">Discover Covesting</button>                                  
                                 </div>
-                                <div class="col-6 img_col">
-                                    <img src="./images/bitcoin.png" class="d-block img-fluid w-75" alt="...">
+                                <div class="col-12 col-lg-6 img_col">
+                                    <img src="./images/bitcoin.png" class="d-block img-fluid w-md-50 w-lg-75" alt="...">
                                 </div>
                             </div>
                         </div>
                       </div>
                       <div class="carousel-item">
                         <img src="./images/slide33.jpg" class="d-block w-100 slider_height" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <div class="row">
-                                <div class="col-6 text-left">
-                                    <h1>Next generation trading platform</h1>
+                                <div class="col-12 col-lg-6 text-left">
+                                    <h1 class="text-capitalize">Next generation trading platform</h1>
                                     <p>Trade Cryptocurrencies, Stock Indices, Commodities and Forex from a single account</p>
                                     <button type="button" class="btn bg_skyblue m-2 px-4 text-capitalize">Open free account</button>                                  
                                 </div>
-                                <div class="col-6 img_col">
+                                <div class="col-12 col-lg-6 img_col">
                                     <img src="./images/slideimg.png" class="d-block img-fluid" alt="...">
                                 </div>
                             </div>
@@ -348,10 +443,10 @@ h5.card-title {
 </section>
 
 <section class="why_choose_us">
-    <div class="container py-5">
-        <h1 class="text-center mb-5 heading_light ">Why Choose us?</h1>
-        <div class="row mb-4 justify-content-around">
-            <div class="card" style="width: 31%;">
+    <div class="container py-lg-5 py-md-3 py-2">
+        <h1 class="text-center mb-lg-5 heading_light text-capitalize">Why Choose us?</h1>
+        <div class="row mb-lg-4 mb-md-3 mb-0 justify-content-around">
+            <div class="card" >
                 <img src="./images/icon1.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-capitalize">Trade with the best</h5>
@@ -359,7 +454,7 @@ h5.card-title {
                     <a href="#" class="btn bg_transperant text-capitalize">Read More <i class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
-            <div class="card" style="width: 31%;">
+            <div class="card" >
                 <img src="./images/icon2.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-capitalize">Find new opportunities</h5>
@@ -367,7 +462,7 @@ h5.card-title {
                     <a href="#" class="btn bg_transperant text-capitalize">Read More <i class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
-            <div class="card" style="width: 31%;">
+            <div class="card" >
                 <img src="./images/icon3.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-capitalize">Increase profitability</h5>
@@ -377,7 +472,7 @@ h5.card-title {
             </div>
         </div>
         <div class="row justify-content-around">
-            <div class="card" style="width: 31%;">
+            <div class="card" >
                 <img src="./images/icon1.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-capitalize">Enjoy privacy and security</h5>
@@ -385,7 +480,7 @@ h5.card-title {
                     <a href="#" class="btn bg_transperant text-capitalize">Read More <i class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
-            <div class="card" style="width: 31%;">
+            <div class="card" >
                 <img src="./images/icon2.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-capitalize">Card title</h5>
@@ -393,7 +488,7 @@ h5.card-title {
                     <a href="#" class="btn bg_transperant text-capitalize">Read More <i class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
-            <div class="card" style="width: 31%;">
+            <div class="card" >
                 <img src="./images/icon3.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-capitalize">Card title</h5>
@@ -404,51 +499,51 @@ h5.card-title {
         </div>
     </div>
 </section>
-<section class="image_with_content py-5 bg_dark">
+<section class="image_with_content py-lg-5 py-md-3 py-2 bg_dark">
     <div class="container">
-        <h1 class="text-left mb-5 heading_light">Maximize profits with leverage</h1>
-        <p>Improve your trading results by using leverage (margin). Leverage is a powerful tool that allows you to open a position much larger in value than the amount you deposited</p>
-        <a href="#" class="btn bg_transperant mb-4 text-capitalize">Learn More <i class="fa-solid fa-angle-right"></i></a>
+        <h1 class="text-left mb-lg-5 heading_light text-light text-capitalize">Maximize profits with leverage</h1>
+        <p class="text-light">Improve your trading results by using leverage (margin). Leverage is a powerful tool that allows you to open a position much larger in value than the amount you deposited</p>
+        <a href="#" class="btn bg_transperant mb-lg-4 mb-md-3 mb-2 text-capitalize text-light">Learn More <i class="fa-solid fa-angle-right"></i></a>
         <div class="row align-items-center">
-            <div class="col-6">
-                <div class="row mb-5">
+            <div class="col-12 col-lg-6">
+                <div class="row mb-lg-5">
                     <div class="col">
-                        <h2 class="heading_light mb-3">+0.64%</h2>
-                        <P class="text-capitalize"><b>without leverage</b></P>
+                        <h2 class="heading_light mb-lg-3 text-light">+0.64%</h2>
+                        <P class="text-capitalize text-light"><b>without leverage</b></P>
                     </div>
                     <div class="col">
-                        <h2 class="heading_light mb-3">+12.8%</h2>
-                        <P class="text-capitalize"><b>with 1:20 leverage</b></P>
+                        <h2 class="heading_light mb-lg-3 text-light">+12.8%</h2>
+                        <P class="text-capitalize text-light"><b>with 1:20 leverage</b></P>
                     </div>
                 </div>
-                <div class="row mb-3">
+                <div class="row mb-lg-3">
                     <div class="col">
-                        <h2 class="heading_light mb-3">+32%</h2>
-                        <P class="text-capitalize"><b>with 1:50 leverage</b></P>
+                        <h2 class="heading_light mb-lg-3 text-light">+32%</h2>
+                        <P class="text-capitalize text-light"><b>with 1:50 leverage</b></P>
                     </div>
                     <div class="col">
-                        <h2 class="heading_light mb-3">+0.64%</h2>
-                        <P class="text-capitalize"><b>with 1:100 leverage</b></P>
+                        <h2 class="heading_light mb-lg-3 text-light">+0.64%</h2>
+                        <P class="text-capitalize text-light"><b>with 1:100 leverage</b></P>
                     </div>
                 </div>  
-                <button type="button" class="btn bg_skyblue m-2 btn-lg mb-4 px-5 text-capitalize">Get started</button>
-                <p>Margin trading involves risk. <a href="#">See Risk Disclosure</a></p>
+                <button type="button" class="btn bg_skyblue m-2 btn-lg mb-lg-4 mb-md-3 mb-2 px-5 text-capitalize text-light">Get started</button>
+                <p class="text-light">Margin trading involves risk. <a href="#">See Risk Disclosure</a></p>
             </div>  
-            <div class="col-6">
+            <div class="col-12 col-lg-6 mb-md-4">
                  <img src="./images/trade.svg" class="d-block img-fluid shadow-sm" alt="...">
             </div>
         </div>
     </div>
 </section>
 
-<section class="our_services py-5">
+<section class="our_services py-lg-5 py-md-3 py-2">
     <div class="container">
-    <h1 class="text-center mb-5 heading_light">Open a free account and start trading in minutes!</h1>
+    <h1 class="text-center mb-lg-5 heading_light text-capitalize">Open a free account and start trading in minutes!</h1>
         <div class="row align-items-center">
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <img src="./images/hero.png" class="d-block img-fluid shadow-sm" alt="...">
             </div>
-            <div class="col-6">
+            <div class="col-12 col-lg-6">
                 <ul class="list-style-none mb-lg-5">
                     <li><p><i class="fa-solid fa-check "></i><b> Best-in-class platform </b></p>
                     <p> Become a better trader with advanced trading tools. Icoprimex provides an award-winning platform that is used by traders from around the world.</p>
@@ -460,18 +555,18 @@ h5.card-title {
                     <p> Our customer service team works 24/7 to provide you with an exceptional level of support.</p>
                     </li>
                 </ul>
-                <button type="button" class="btn bg_skyblue ms-4 mb-4 px-4 text-capitalize">Open account</button>  
+                <button type="button" class="btn bg_skyblue ms-4 mb-lg-4 mb-md-3 mb-2 px-4 text-capitalize">Open account</button>  
                 <p class="ps-4">Registration takes only 40 seconds!</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="blog_section py-5 bg_dark">
+<section class="blog_section py-lg-5 py-md-3 py-2 bg_dark">
 <div class="container">
-        <h1 class="text-center mb-5 heading_light ">Our Blog</h1>
-        <div class="row mb-4 justify-content-around">
-            <div class="card" style="width: 31%;">
+        <h1 class="text-center mb-lg-5 heading_light text-light text-capitalize">Our Blog</h1>
+        <div class="row mb-lg-4 mb-md-3 mb-2 justify-content-around">
+            <div class="card" >
                 <img src="./images/blog1.jpg" class="card-img-top" alt="...">
                 <div class="card-body"> 
                     <h5 class="card-title text-capitalize">Bitcoin Investment</h5>
@@ -479,7 +574,7 @@ h5.card-title {
                     <a href="#" class="btn bg_transperant text-capitalize">Read More <i class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
-            <div class="card" style="width: 31%;">
+            <div class="card" >
                 <img src="./images/blog2.jpg" class="card-img-top img-fluid" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-capitalize">Bitcoin Investment</h5>
@@ -487,7 +582,7 @@ h5.card-title {
                     <a href="#" class="btn bg_transperant text-capitalize">Read More <i class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
-            <div class="card" style="width: 31%;">
+            <div class="card" >
                 <img src="./images/blog3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-capitalize">Bitcoin Exchange</h5>
@@ -499,9 +594,9 @@ h5.card-title {
     </div>
 </section>
 
-<section class="media_section py-5">
+<section class="media_section py-lg-5 py-md-3 py-2">
     <div class="container position-relative">
-    <h1 class="text-center mb-5 heading_light"> JL Treding Point in the Media</h1>
+    <h1 class="text-center mb-lg-5 heading_light text-capitalize"> JL Treding Point in the Media</h1>
         <div class="justify-content-around slick-carousel">
                 <div class=" text-center shadow-sm p-4">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non nulla placeat, odio, qui dicta alias.</p>
@@ -535,39 +630,23 @@ h5.card-title {
     </div>
 </section>
 
-<section class="cta_section">
-    <div class="container">
-    <h1 class="text-left mb-5 heading_light"> JL Treding Point in the Media</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non nulla placeat, odio, qui dicta alias.</p>
+<section class="cta_section py-lg-5 py-md-3 py-2 bg_dark">
+    <div class="container text-center">
+    <h1 class="text-center mb-lg-5 heading_light text-light text-capitalize"> Subscribe To Our Newsletter</h1>
+    <p class="text-light mb-lg-4 mb-md-3 mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non nulla placeat, odio, qui dicta alias.</p>
       <form action="">
         <!--Grid row-->
         <div class="row d-flex justify-content-center">
-          <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Sign up for our newsletter</strong>
-            </p>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-5 col-12">
+          <div class="col-md-6 col-lg-6 col-12">
             <!-- Email input -->
-            <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example21" class="form-control" />
-              <label class="form-label" for="form5Example21">Email address</label>
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-auto">
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-light mb-4">
+            <div class="form-outline form-white d-flex ">
+              <input type="email" id="form5Example21" placeholder="Enter Your Email" class="form-control" />
+              <!-- <label class="form-label" for="form5Example21">Email address</label> -->
+              <button type="submit " class="btn btn-outline-light bg_skyblue_light px-4 text-capitalize mb-lg-4 mb-md-3 mb-2 text-light">
               Subscribe
             </button>
+            </div>
           </div>
-          <!--Grid column-->
         </div>
         <!--Grid row-->
       </form>
@@ -578,16 +657,58 @@ h5.card-title {
 
 
 <!-- Footer -->
-<section class="footer_section py-5 bg-dark">
+<section class="footer_section py-lg-5 py-md-3 py-2 bg-light">
     <div class="container">
-        <div class="row justify-content-around align-items-center mb-5">
-            <div class="col-4 text-center">
+        <div class="row justify-content-around align-items-top mb-lg-5">
+            <div class="col-3 text-left pe-3">
                 <a class="navbar-brand" href="#"><img src="./images/newlogo.png"></a>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non nulla placeat, odio, qui dicta alias.</p>
             </div>
-            <div class="col-4 text-center">
-            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non nulla placeat, odio, qui dicta alias.</p>
+            <div class="col-2 text-left pe-3">
+                <ul class="list-unstyled ">
+                    <li class="footer_li mb-lg-3">
+                    <a href="#!" class=""><b>Product</b></a>
+                    </li>
+                    <li class="footer_li">
+                    <a href="#!" class="">Icoprimex Platform</a>
+                    </li>
+                    <li class="footer_li">
+                    <a href="#!" class="">Covesting Module</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-4 text-center">
+            <div class="col-2 text-left pe-3">
+                <ul class="list-unstyled">
+                    <li class="footer_li mb-lg-3">
+                    <a href="#!" class=""><b>Markets</b></a>
+                    </li>
+                    <li class="footer_li"> 
+                    <a href="#!" class="">Cryptocurrencies</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-2 text-left pe-3">
+                <ul class="list-unstyled">
+                    <li class="footer_li mb-lg-3">
+                    <a href="#!" class=""><b>Trading Tools</b></a>
+                    </li>
+                    <li class="footer_li"> 
+                    <a href="#!" class="">Cryptocurrency Price Charts</a>
+                    </li>
+                    <li class="footer_li">
+                    <a href="#!" class="">Commodity Price Charts</a>
+                    </li>
+                    <li class="footer_li">
+                    <a href="#!" class="">Copy Trading4</a>
+                    </li
+                </ul>
+            </div>
+            <div class="col-3 text-left pe-3">
+            <ul class="list-unstyled">
+            <li class="footer_li mb-lg-3">
+              <a href="#!" class=""><b>Contact Us</b></a>
+            </li>
+            </ul>
             <ul class="d-flex share_icon">
                                             <li class=""><i class="fa-brands fa-angellist"></i></li>
                                             <li class=""><i class="fa-brands fa-twitter"></i></li>
@@ -595,56 +716,12 @@ h5.card-title {
                                             <li class=""><i class="fa-brands fa-telegram"></i></li>
                                             <li class=""><i class="fa-brands fa-youtube"></i></li>
                 </ul>
-            </div>
-        </div>
-        <div class="row justify-content-around align-items-center">
-            <div class="col-4">
-            <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Product</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-            </div>
-            <div class="col-4">
-            <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Markets</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-            </div>
-            <div class="col-4">
-            <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Trading Tools</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
+                <ul class="share_icon d-flex align-items-center mb-0"> 
+                    <li class=""><i class="fa-solid fa-phone"></i></li><p>9876543210</p>
+                </ul>
+                <ul class="share_icon d-flex align-items-center"> 
+                <li class=""><i class="fa-sharp fa-solid fa-location-dot"></i></li><p>Lorem ipsum dolor sit<br> amet, consectetur adipisicing elit. </p>
+
             </div>
         </div>
     </div>
