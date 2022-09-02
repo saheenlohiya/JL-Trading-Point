@@ -17,5 +17,5 @@ use App\http\Controllers\HomePageControllers;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/', [HomePageControllers::class, 'index'])->name('home');
-Route::get('admin/panel', [HomePageControllers::class, 'master'])->name('master.home');
+Route::get('/', [HomePageControllers::class, 'index'])->name('home.page');
+Route::get('user/dashboard', [HomePageControllers::class, 'master'])->name('user.dashboard');
