@@ -6,7 +6,7 @@
 
         @yield('content')
 	<!-- Footer -->
-	<section class="footer_section py-lg-5 py-md-4 py-4 bg-light">
+	<section class="footer_section pt-lg-5 py-md-4 py-4 bg-light">
 		@include('frontend.layouts.footer')
 	</section>
 </body>
