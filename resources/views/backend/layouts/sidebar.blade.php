@@ -2,9 +2,9 @@
 <div class="nk-sidebar-element nk-sidebar-head">
     <div class="nk-sidebar-brand">
         <a href="html/crypto/index.html" class="logo-link nk-sidebar-logo">
-            <img class="logo-light logo-img" src="{{ url('/images/logo.png') }}" srcset="./images/logo2x.png 2x" alt="logo">
-            <img class="logo-dark logo-img" src="{{ url('/images/logo-dark.png') }}" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
-            <span class="nio-version">Crypto</span>
+            <img class="logo-light logo-img" src="{{ url('/images/newlogo.png') }}" srcset="./images/newlogo.png 2x" alt="logo">
+            <img class="logo-dark logo-img" src="{{ url('/images/newlogo.png') }}" srcset="./images/newlogo.png 2x" alt="logo-dark">
+            <!-- <span class="nio-version">Crypto</span> -->
         </a>
     </div>
     <div class="nk-menu-trigger mr-n2">
@@ -17,10 +17,9 @@
             <div class="nk-sidebar-widget d-none d-xl-block">
                 <div class="user-account-info between-center">
                     <div class="user-account-main">
-                        <h6 class="overline-title-alt">Available Balance</h6>
-                        <div class="user-balance">200 <small class="currency currency-btc">USD</small></div>
+                        <h6 class="overline-title-alt">MAIN ACCOUNT BALANCE</h6>
+                        <div class="user-balance">0.00<small class="currency currency-btc">USD</small></div>
                     </div>
-                    <a href="#" class="btn btn-white btn-icon btn-light"><em class="icon ni ni-line-chart"></em></a>
                 </div>
                 <ul class="user-account-data gy-1">
                     <li>
@@ -28,7 +27,7 @@
                             <span class="sub-text">Profits (7d)</span>
                         </div>
                         <div class="user-account-value">
-                            <span class="lead-text"> 500 <span class="currency currency-btc">USD</span></span>
+                            <span class="lead-text">0.00<span class="currency currency-btc">USD</span></span>
                         </div>
                     </li>
                     <li>
@@ -36,7 +35,7 @@
                             <span class="sub-text">Deposit in orders</span>
                         </div>
                         <div class="user-account-value">
-                            <span class="sub-text">300 <span class="currency currency-btc">USD</span></span>
+                            <span class="sub-text">0.00<span class="currency currency-btc">USD</span></span>
                         </div>
                     </li>
                 </ul>
@@ -152,6 +151,15 @@
                         <a href="#" class="nk-menu-link">
                             <span class="nk-menu-icon"><em class="icon ni ni-account-setting"></em></span>
                             <span class="nk-menu-text">My Profile</span>
+                        </a>
+                    </li>
+                    <li class="nk-menu-heading">
+                        <h6 class="overline-title">ADDITIONAL</h6>
+                    </li>
+                    <li class="nk-menu-item">
+                        <a href="{{route('home.page')}}" class="nk-menu-link">
+                            <span class="nk-menu-icon"><em class="icon ni ni-dashlite"></em></span>
+                            <span class="nk-menu-text">Go to Home</span>
                         </a>
                     </li>
                 </ul>
