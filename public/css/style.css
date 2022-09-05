@@ -1,0 +1,357 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+.bg_dark {
+    background: #004c86;
+}
+
+.bg_skyblue {
+    background: #1E79A8;
+    color: #fff;
+}
+
+.bg_skyblue:hover {
+    background: #004C86;
+    color: #fff;
+    transition: all 0.5s;
+    border-color: #004C86;
+}
+
+.bg_skyblue_light {
+    background: #1E79A8;
+    color: #fff;
+    border-color: #1E79A8;
+}
+
+.bg_skyblue_light:hover {
+    background: #0000;
+    color: #fff;
+    transition: all 0.5s;
+    border-color: #fff;
+}
+
+.bg_transparent {
+    background-color: transparent;
+}
+
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
+    filter: unset;
+}
+
+.slider_height {
+    height: 800px;
+    object-fit: cover;
+}
+
+.slider_with_header {
+    position: relative;
+}
+
+.header_absolute {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+
+a.nav-link.dropdown-toggle.text-light.text-uppercase,
+.navbar-expand-lg button.btn.btn-success.m-2.text-uppercase {
+    font-size: 14px;
+}
+
+.slider_with_header .carousel-caption {
+    top: 56%;
+    transform: translateY(-54%);
+}
+
+.text-left {
+    text-align: left;
+}
+
+.slider_box {
+    width:70%;
+    margin: 0 auto;
+    background: rgb(29 135 86 / 15%);
+    border-radius: 25px;
+    padding: 30px;
+}
+
+a.navbar-brand img {
+    height: 120px;
+}
+
+.navbar .dropdown-menu a.dropdown-item {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.img_col {
+    margin-top: -8%;
+}
+
+.slider_box ul.d-flex {
+    flex-wrap: wrap;
+}
+
+.slider_box ul li {
+    text-align: left;
+}
+
+.slider_box ul.d-flex.share_icon,
+.our_services ul {
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.slider_box ul.d-flex.share_icon li {
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.slider_box ul.d-flex.share_icon li:hover {
+    background: #fff;
+    color: #000;
+    transition: all 0.5s;
+}
+/* ----------------------------- */
+
+.footer_section .share_icon,
+.footer_section ul {
+    /* justify-content: space-around; */
+    list-style: none;
+    padding: 0;
+    /* text-align:center; */
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.footer_section li.footer_li {
+    margin-bottom: 10px;
+}
+
+.footer_section p {
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.footer_section .share_icon li {
+    margin-right: 15px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    border-radius: 50%;
+    border: 2px solid #004c86;
+    background: #004c86;
+    color: #f8f9fa;
+}
+
+.footer_section .share_icon li:hover {
+    background: transparent;
+    color: #004c86;
+    border: 2px solid #004c86;
+    transition: all 0.5s;
+}
+
+.footer_section .footer_li a {
+    text-decoration: none;
+}
+
+.footer_section .footer_li a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer_section .footer_li a {
+    color: #000;
+}
+
+.footer_section .footer_li a:hover {
+    color: #004c86;
+}
+
+a.btn.bg_transperant.text-capitalize {
+    border: 1px solid #004c86;
+    color: #004c86;
+}
+
+a.btn.bg_transperant.text-capitalize:hover {
+    border: 1px solid #1E79A8;
+    background: #1E79A8;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+section.why_choose_us .card:hover {
+    transition: all 0.5s;
+    box-shadow: rgb(149 157 165 / 50%) 0px 8px 24px;
+}
+/* why section    */
+
+section.why_choose_us.py-lg-5 py-md-3 py-2 .container .row {
+    justify-content: space-around;
+}
+
+section.why_choose_us.card-img,
+section.why_choose_us .card-img-bottom,
+section.why_choose_us .card-img-top {
+    width: 60px;
+    text-align: center;
+    margin: auto;
+}
+
+section.why_choose_us .card {
+    text-align: center;
+    padding: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+}
+
+section.why_choose_us.py-lg-5 py-md-3 py-2 a.btn.bg_transperant {
+    color: #48a6eb;
+}
+
+.heading_light {
+    font-weight: 500;
+}
+/* our services */
+
+.our_services i {
+    color: #b8e986;
+}
+/* blog section   */
+
+.blog_section .card {
+    padding: 0;
+}
+
+h5.card-title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* media_section   */
+
+.media_section img.media_image {
+    width: 120px;
+}
+.media_section  .slick-dots {
+width: 90%;
+}	
+.media_section .slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.media_section .slick-list.draggable {
+    overflow: hidden;
+}
+
+.media_section .slick-slide {
+    margin: 15px;
+    height: 200px;
+    cursor: pointer;
+}
+/* cta section    */
+
+.cta_section .form-control {
+    height: 40px;
+}
+
+.cta_section button.btn.btn-outline-light.bg_skyblue_light {
+    border-radius: 0 25px 25px 0;
+    height: 40px;
+}
+
+.cta_section .form-control {
+    border-radius: 25px 0 0 25px;
+}
+
+.why_choose_us .card,
+.blog_section .card {
+    width: 31%;
+}
+/* media query   */
+
+@media(max-width:1024px) {
+    
+    h1 {
+font-weight: 600;
+font-size: 38px;
+}
+.slider_box {
+    width:70%;
+}
+}
+@media(max-width:992px) {
+    h1 {
+font-weight: 600;
+font-size: 38px;
+}
+    .image_with_content .row.align-items-center,
+    .slider_with_header .carousel-caption .row {
+        flex-direction: column-reverse;
+    }
+    .slider_with_header .carousel-caption {
+        top: 46%;
+        transform: translateY(-54%);
+    }
+    .img_col {
+        margin-top: 0%;
+    }
+    .slider_section .img-fluid {
+        max-width: 60%;
+        margin: auto;
+    }
+    h1.text-capitalize {
+        font-size: 32px;
+    }
+    .why_choose_us .card,
+    .blog_section .card {
+        width: 90%;
+    }
+    section.why_choose_us .card,
+    .blog_section .card {
+        margin: 15px;
+    }
+    .navbar-toggler-icon {
+        filter: brightness(0) invert(1);
+    }
+    .navbar-toggler {
+        border: 2px solid #8c8e92;
+    }
+    .slider_with_header a.navbar-brand img {
+        height: 90px;
+    }
+}
+@media(max-width:768px){
+    h1.text-capitalize {
+font-size: 24px;
+}
+.slider_box p {
+font-size: 13px;
+}
+.slider_box .w-50{
+width:100% !important;
+font-size:14px;
+}
+.slider_box {
+padding: 15px;
+}
+}
