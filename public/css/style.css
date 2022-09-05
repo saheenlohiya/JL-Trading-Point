@@ -13,6 +13,9 @@ body a {
     background: #1E79A8;
     color: #fff;
 }
+.bg_sky_light {
+    background: #1E79A8;
+}
 
 .bg_skyblue:hover {
     background: #004C86;
@@ -79,7 +82,9 @@ a.nav-link.dropdown-toggle.text-light.text-uppercase,
     border-radius: 25px;
     padding: 30px;
 }
-
+.bottem_shadow{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 a.navbar-brand img {
     height: 120px;
 }
@@ -203,7 +208,7 @@ a.btn.bg_transperant.text-capitalize:hover {
     transition: all 0.5s;
 }
 
-section.why_choose_us .card:hover {
+section.why_choose_us .card:hover, section.technology .card:hover {
     transition: all 0.5s;
     box-shadow: rgb(149 157 165 / 50%) 0px 8px 24px;
 }
@@ -212,16 +217,17 @@ section.why_choose_us .card:hover {
 section.why_choose_us.py-lg-5 py-md-3 py-2 .container .row {
     justify-content: space-around;
 }
-
+section.why_choose_us .card {
+    height: 290px;
+}
 section.why_choose_us.card-img,
 section.why_choose_us .card-img-bottom,
-section.why_choose_us .card-img-top {
+section.why_choose_us .card-img-top, section.technology .card-img, section.technology .card-img-bottom, section.technology .card-img-top, section.our_vision .card-img, section.our_vision .card-img-bottom, section.our_vision .card-img-top{
     width: 60px;
     text-align: center;
     margin: auto;
 }
-
-section.why_choose_us .card {
+section.why_choose_us .card, section.technology .card {
     text-align: center;
     padding: 15px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -288,9 +294,42 @@ width: 90%;
 }
 
 .why_choose_us .card,
-.blog_section .card {
+.blog_section .card, .width_33{
     width: 31%;
 }
+
+/*-----------------------------------------------------------------------*/
+
+/*about Page */
+
+.about_baner{
+    background-image: url(../images/about.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.card1_image{
+     background-image: url(../images/flag1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card2_image{
+     background-image: url(../images/flag2.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.why_choose_us.about_section {
+    box-shadow: 1px 17px 16px -11px rgba(0,0,0,0.08);
+}
+
+
+
+
 /* media query   */
 
 @media(max-width:1024px) {
@@ -304,6 +343,11 @@ font-size: 38px;
 }
 }
 @media(max-width:992px) {
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 20px;
+        height: 22px;
+    }
     h1 {
 font-weight: 600;
 font-size: 38px;
@@ -327,7 +371,7 @@ font-size: 38px;
         font-size: 32px;
     }
     .why_choose_us .card,
-    .blog_section .card {
+    .blog_section .card, section.technology .card{
         width: 90%;
     }
     section.why_choose_us .card,
@@ -351,6 +395,9 @@ div#navbarSupportedContent {
 }
 }
 @media(max-width:768px){
+    section.our_vision .about_box{
+        width: 90%;
+    }
     .display_none{
         display:none;
     }
