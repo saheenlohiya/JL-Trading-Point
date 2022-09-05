@@ -17,7 +17,7 @@
                      <img src="./images/slide1.jpg" class="d-block w-100 slider_height" alt="...">
                      <div class="carousel-caption d-md-block">
                         <div class="row">
-                           <div class="col-12 col-lg-6 text-left">
+                           <div class="col-12 col-lg-6 text-left display_none">
                               <h1 class="text-capitalize">Next generation trading platform</h1>
                               <p>Trade Cryptocurrencies, Stock Indices, Commodities and Forex from a single account</p>
                               <button type="button" class="btn bg_skyblue m-2 px-4 text-capitalize">Open free account</button>
@@ -86,7 +86,7 @@
 </section>
 <section class="why_choose_us">
    <div class="container py-lg-5 py-md-4 py-4">
-      <h1 class="text-center mb-lg-5 heading_light text-capitalize">Why Choose us?</h1>
+      <h1 class="text-center mb-lg-5 heading_light text-capitalize mb-3">Why Choose us?</h1>
       <div class="row mb-lg-4 mb-md-0 mb-0 justify-content-around">
          <div class="card">
             <img src="./images/icon1.svg" class="card-img-top" alt="...">
@@ -171,15 +171,15 @@
             <button type="button" class="btn bg_skyblue m-2 btn-lg mb-lg-4 mb-md-3 mb-2 px-lg-5 px-md-4 px-1 text-capitalize text-light">Get started</button>
             <p class="text-light">Margin trading involves risk. <a href="#">See Risk Disclosure</a></p>
          </div>
-         <div class="col-12 col-lg-6 mb-md-4"> <img src="./images/trade.svg" class="d-block img-fluid shadow-sm" alt="..."> </div>
-      </div>
+         <div class="col-12 col-lg-6 mb-md-4"> <img src="./images/trade.svg" class="d-block img-fluid shadow-sm mb-3" alt="..."> </div>
+      </div> 
    </div>
 </section>
 <section class="our_services py-lg-5 py-md-4 py-4">
    <div class="container">
-      <h1 class="text-center mb-lg-5 heading_light text-capitalize">Open a free account and start trading in minutes!</h1>
+      <h1 class="text-center mb-lg-5 heading_light text-capitalize mb-3">Open a free account and start trading in minutes!</h1>
       <div class="row align-items-center">
-         <div class="col-12 col-lg-6"> <img src="./images/hero.png" class="d-block img-fluid shadow-sm" alt="..."> </div>
+         <div class="col-12 col-lg-6"> <img src="./images/hero.png" class="d-block img-fluid shadow-sm mb-3" alt="..."> </div>
          <div class="col-12 col-lg-6">
             <ul class="list-style-none mb-lg-5">
                <li>
@@ -234,7 +234,7 @@
 </section>
 <section class="media_section py-lg-5 py-md-4 py-4">
    <div class="container position-relative">
-      <h1 class="text-center mb-lg-5 heading_light text-capitalize"> JL Treding Point in the Media</h1>
+      <h1 class="text-center mb-lg-5 heading_light text-capitalize mb-3"> JL Treding Point in the Media</h1>
       <div class="justify-content-around slick-carousel">
          <div class=" text-center shadow-sm p-4">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias non nulla placeat, odio, qui dicta alias.</p>
