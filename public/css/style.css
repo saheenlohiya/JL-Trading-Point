@@ -3,9 +3,12 @@ body {
     overflow-x: hidden;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 body a {
     color: unset;
 }
+=======
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 =======
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 .bg_dark {
@@ -17,9 +20,12 @@ body a {
     color: #fff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .bg_sky_light {
     background: #1E79A8;
 }
+=======
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 =======
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 
@@ -89,9 +95,13 @@ a.nav-link.dropdown-toggle.text-light.text-uppercase,
     padding: 30px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .bottem_shadow{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+=======
+
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 =======
 
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
@@ -154,7 +164,10 @@ h1 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 =======
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 h1 {
@@ -222,7 +235,11 @@ a.btn.bg_transperant.text-capitalize:hover {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 section.why_choose_us .card:hover, section.technology .card:hover {
+=======
+section.why_choose_us .card:hover {
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 =======
 section.why_choose_us .card:hover {
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
@@ -235,6 +252,7 @@ section.why_choose_us.py-lg-5 py-md-3 py-2 .container .row {
     justify-content: space-around;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 section.why_choose_us .card {
     height: 290px;
 }
@@ -242,17 +260,27 @@ section.why_choose_us.card-img,
 section.why_choose_us .card-img-bottom,
 section.why_choose_us .card-img-top, section.technology .card-img, section.technology .card-img-bottom, section.technology .card-img-top, section.our_vision .card-img, section.our_vision .card-img-bottom, section.our_vision .card-img-top{
 =======
+=======
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 
 section.why_choose_us.card-img,
 section.why_choose_us .card-img-bottom,
 section.why_choose_us .card-img-top {
+<<<<<<< HEAD
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
+=======
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
     width: 60px;
     text-align: center;
     margin: auto;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 section.why_choose_us .card, section.technology .card {
+=======
+
+section.why_choose_us .card {
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 =======
 
 section.why_choose_us .card {
@@ -324,6 +352,7 @@ width: 90%;
 
 .why_choose_us .card,
 <<<<<<< HEAD
+<<<<<<< HEAD
 .blog_section .card, .width_33{
     width: 31%;
 }
@@ -365,6 +394,11 @@ section.why_choose_us.about_section {
     width: 31%;
 }
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
+=======
+.blog_section .card {
+    width: 31%;
+}
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 /* media query   */
 
 @media(max-width:1024px) {
@@ -374,6 +408,7 @@ font-weight: 600;
 font-size: 38px;
 }
 .slider_box {
+<<<<<<< HEAD
 <<<<<<< HEAD
     width:100%;
 }
@@ -385,10 +420,15 @@ font-size: 38px;
         height: 22px;
     }
 =======
+=======
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
     width:70%;
 }
 }
 @media(max-width:992px) {
+<<<<<<< HEAD
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
+=======
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
     h1 {
 font-weight: 600;
@@ -414,7 +454,11 @@ font-size: 38px;
     }
     .why_choose_us .card,
 <<<<<<< HEAD
+<<<<<<< HEAD
     .blog_section .card, section.technology .card{
+=======
+    .blog_section .card {
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 =======
     .blog_section .card {
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
@@ -434,6 +478,7 @@ font-size: 38px;
         height: 90px;
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 @media(max-width:991px){
 div#navbarSupportedContent {
@@ -457,6 +502,9 @@ div#navbarSupportedContent {
 =======
 @media(max-width:768px){
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
+=======
+@media(max-width:768px){
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
     h1.text-capitalize {
 font-size: 24px;
 }
@@ -465,7 +513,11 @@ font-size: 13px;
 }
 .slider_box .w-50{
 <<<<<<< HEAD
+<<<<<<< HEAD
 width:50% !important;
+=======
+width:100% !important;
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 =======
 width:100% !important;
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
@@ -475,12 +527,15 @@ font-size:14px;
 padding: 15px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 @media(max-width:576px){
 .slider_box .w-50{
 width:100% !important;
 font-size:14px;
 }
+=======
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 =======
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 }

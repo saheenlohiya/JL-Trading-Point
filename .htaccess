@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 DirectoryIndex index.php
 
 <IfModule mod_rewrite.c>
@@ -9,10 +10,16 @@ DirectoryIndex index.php
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
+=======
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
     </IfModule>
 
     RewriteEngine On
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
     RewriteRule ^(.*) - [E=BASE:%1]
@@ -25,6 +32,8 @@ DirectoryIndex index.php
 
     RewriteRule .? %{ENV:BASE}/index.php [L]
 =======
+=======
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
@@ -39,4 +48,7 @@ DirectoryIndex index.php
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+<<<<<<< HEAD
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
+=======
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b

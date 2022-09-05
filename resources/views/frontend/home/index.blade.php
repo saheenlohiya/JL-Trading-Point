@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @extends('frontend.layouts.master')
 @section('head')
 @endsection
@@ -292,6 +293,8 @@
 @section('script')
 @endsection
 =======
+=======
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1005,5 +1008,9 @@
 	</script>
 </body>
 
+<<<<<<< HEAD
+</html>
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
+=======
 </html>
 >>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
