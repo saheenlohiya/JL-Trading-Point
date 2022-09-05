@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	@include('frontend.layouts.head')
-<body>
+<body class="home">
     @include('frontend.layouts.header')
 
         @yield('content')
