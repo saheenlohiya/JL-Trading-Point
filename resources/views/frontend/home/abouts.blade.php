@@ -155,12 +155,13 @@ C. Stone</p>
 
 
 <section class="your_trades py-5 bg-light bottem_shadow my-2">
-<div class="container text-center">
+<div class="container">
       <h1 class="text-left mb-lg-5 heading_light text-capitalize mb-3 text-dark">Contact us</h1>
         <div class="row align-items-center">
             <div class="col-12">
                 <p class="text-dark text-left mb-lg-4 mb-3">The Jl Trading Paoint team is committed to providing 24/7 customer service. For all questions, security issues, product related inquiries and business proposals please reach us at support@help.jltradingpoint.com</p> 
                 <p class="text-dark text-left mb-lg-4 mb-3">We're looking for experienced traders, engineers and marketing talents. Send an email with a subject ‘Job application’ to info@primexbt.com with your CV if you're interested in joining JL Trading Point team.</p> 
+               <button type="button" action="{{Route('contactus')}}" class="btn bg_skyblue m-2 btn-lg mb-lg-4 mb-md-3 mb-2 px-lg-5 px-md-4 px-1 text-capitalize  text-light">Contact Us</button>
             </div>
         </div>
     </div>
