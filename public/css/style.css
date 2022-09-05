@@ -2,9 +2,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
 }
+<<<<<<< HEAD
 body a {
     color: unset;
 }
+=======
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 .bg_dark {
     background: #004c86;
 }
@@ -13,9 +16,12 @@ body a {
     background: #1E79A8;
     color: #fff;
 }
+<<<<<<< HEAD
 .bg_sky_light {
     background: #1E79A8;
 }
+=======
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 
 .bg_skyblue:hover {
     background: #004C86;
@@ -82,9 +88,13 @@ a.nav-link.dropdown-toggle.text-light.text-uppercase,
     border-radius: 25px;
     padding: 30px;
 }
+<<<<<<< HEAD
 .bottem_shadow{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+=======
+
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 a.navbar-brand img {
     height: 120px;
 }
@@ -143,7 +153,10 @@ h1 {
     /* text-align:center; */
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 h1 {
     font-weight: 800;
     font-size: 48px;
@@ -208,7 +221,11 @@ a.btn.bg_transperant.text-capitalize:hover {
     transition: all 0.5s;
 }
 
+<<<<<<< HEAD
 section.why_choose_us .card:hover, section.technology .card:hover {
+=======
+section.why_choose_us .card:hover {
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
     transition: all 0.5s;
     box-shadow: rgb(149 157 165 / 50%) 0px 8px 24px;
 }
@@ -217,17 +234,29 @@ section.why_choose_us .card:hover, section.technology .card:hover {
 section.why_choose_us.py-lg-5 py-md-3 py-2 .container .row {
     justify-content: space-around;
 }
+<<<<<<< HEAD
 section.why_choose_us .card {
     height: 290px;
 }
 section.why_choose_us.card-img,
 section.why_choose_us .card-img-bottom,
 section.why_choose_us .card-img-top, section.technology .card-img, section.technology .card-img-bottom, section.technology .card-img-top, section.our_vision .card-img, section.our_vision .card-img-bottom, section.our_vision .card-img-top{
+=======
+
+section.why_choose_us.card-img,
+section.why_choose_us .card-img-bottom,
+section.why_choose_us .card-img-top {
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
     width: 60px;
     text-align: center;
     margin: auto;
 }
+<<<<<<< HEAD
 section.why_choose_us .card, section.technology .card {
+=======
+
+section.why_choose_us .card {
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
     text-align: center;
     padding: 15px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -294,6 +323,7 @@ width: 90%;
 }
 
 .why_choose_us .card,
+<<<<<<< HEAD
 .blog_section .card, .width_33{
     width: 31%;
 }
@@ -330,6 +360,11 @@ section.why_choose_us.about_section {
 
 
 
+=======
+.blog_section .card {
+    width: 31%;
+}
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 /* media query   */
 
 @media(max-width:1024px) {
@@ -339,6 +374,7 @@ font-weight: 600;
 font-size: 38px;
 }
 .slider_box {
+<<<<<<< HEAD
     width:100%;
 }
 }
@@ -348,6 +384,12 @@ font-size: 38px;
         width: 20px;
         height: 22px;
     }
+=======
+    width:70%;
+}
+}
+@media(max-width:992px) {
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
     h1 {
 font-weight: 600;
 font-size: 38px;
@@ -371,7 +413,11 @@ font-size: 38px;
         font-size: 32px;
     }
     .why_choose_us .card,
+<<<<<<< HEAD
     .blog_section .card, section.technology .card{
+=======
+    .blog_section .card {
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
         width: 90%;
     }
     section.why_choose_us .card,
@@ -388,6 +434,7 @@ font-size: 38px;
         height: 90px;
     }
 }
+<<<<<<< HEAD
 @media(max-width:991px){
 div#navbarSupportedContent {
     padding: 15px;
@@ -407,6 +454,9 @@ div#navbarSupportedContent {
     .slider_height {
         height: 620px;
     }
+=======
+@media(max-width:768px){
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
     h1.text-capitalize {
 font-size: 24px;
 }
@@ -414,16 +464,23 @@ font-size: 24px;
 font-size: 13px;
 }
 .slider_box .w-50{
+<<<<<<< HEAD
 width:50% !important;
+=======
+width:100% !important;
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 font-size:14px;
 }
 .slider_box {
 padding: 15px;
 }
+<<<<<<< HEAD
 }
 @media(max-width:576px){
 .slider_box .w-50{
 width:100% !important;
 font-size:14px;
 }
+=======
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
 }

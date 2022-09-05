@@ -1,12 +1,19 @@
+<<<<<<< HEAD
 DirectoryIndex index.php
 
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews
+=======
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
     </IfModule>
 
     RewriteEngine On
 
+<<<<<<< HEAD
     RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
     RewriteRule ^(.*) - [E=BASE:%1]
 
@@ -17,3 +24,19 @@ DirectoryIndex index.php
     RewriteRule .? - [L]
 
     RewriteRule .? %{ENV:BASE}/index.php [L]
+=======
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+>>>>>>> b4de8313eaf2641f86b8e671814b625408e38f4b
