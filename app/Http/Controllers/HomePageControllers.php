@@ -15,4 +15,9 @@ class HomePageControllers extends Controller
     {
         return view('backend.dashbord.index');
     }
+
+    public function aboutus()
+    {
+        return view('frontend.home.abouts');
+    }
 }
