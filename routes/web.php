@@ -20,3 +20,4 @@ use App\http\Controllers\HomePageControllers;
 Route::get('/', [HomePageControllers::class, 'index'])->name('home.page');
 Route::get('user/dashboard', [HomePageControllers::class, 'master'])->name('user.dashboard');
 Route::get('aboutus', [HomePageControllers::class, 'aboutus'])->name('aboutus');
+Route::get('contactus', [HomePageControllers::class, 'contactus'])->name('contactus');

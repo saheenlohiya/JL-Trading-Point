@@ -36,6 +36,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item text-uppercase" href="{{Route('aboutus')}}">About Us</a></li>
                                 <li><a class="dropdown-item text-uppercase" href="#">Fees and Conditions</a></li>
+                                <li><a class="dropdown-item text-uppercase" href="{{Route('contactus')}}">Contact Us</a></li>
                             </ul>
                         </li>
                     </ul>

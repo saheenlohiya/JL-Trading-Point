@@ -20,4 +20,8 @@ class HomePageControllers extends Controller
     {
         return view('frontend.home.abouts');
     }
+    public function contactus()
+    {
+        return view('frontend.home.contact');
+    }
 }
