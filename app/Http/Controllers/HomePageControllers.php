@@ -12,7 +12,7 @@ class HomePageControllers extends Controller
     }
 
     public function master()
-    {
+    {  
         return view('backend.dashbord.index');
     }
 

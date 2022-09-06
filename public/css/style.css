@@ -342,6 +342,7 @@ section.why_choose_us.about_section {
     background-size: cover;
     background-repeat: no-repeat;
 }
+<<<<<<< HEAD
 .shadow-lg {
 	box-shadow: 0 1rem 3rem rgba(132, 138, 163, 0.2) !important;
 }
@@ -353,6 +354,8 @@ section.why_choose_us.about_section {
 .contact_section a:hover {
     color: #d1d1d1;
 }
+=======
+>>>>>>> 2d37785070bcf261693e58496f4e762abe75925d
 /* media query   */
 
 

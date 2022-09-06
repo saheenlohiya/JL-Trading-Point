@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\http\Controllers\HomePageControllers;
+use App\Http\Controllers\HomePageControllers;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +20,7 @@ use App\http\Controllers\HomePageControllers;
 Route::get('/', [HomePageControllers::class, 'index'])->name('home.page');
 Route::get('user/dashboard', [HomePageControllers::class, 'master'])->name('user.dashboard');
 Route::get('aboutus', [HomePageControllers::class, 'aboutus'])->name('aboutus');
+<<<<<<< HEAD
 Route::get('contactus', [HomePageControllers::class, 'contactus'])->name('contactus');
+=======
+>>>>>>> 2d37785070bcf261693e58496f4e762abe75925d

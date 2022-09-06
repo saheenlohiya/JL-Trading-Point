@@ -1,0 +1,86 @@
+[05-Sep-2022 06:21:06 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.22. in /home2/webdetty/public_html/JLTradingPoint/vendor/composer/platform_check.php on line 24
+[05-Sep-2022 07:52:21 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:52:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:52:26 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:52:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:52:51 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:52:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:52:53 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:52:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:53:14 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:53:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:54:26 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:54:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:54:28 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:54:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:55:50 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:55:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:56:30 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:56:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:56:32 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:56:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:56:34 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 07:56:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 09:09:34 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 09:09:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 09:09:36 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 09:09:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 10:21:23 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 10:21:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 12:21:40 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../JLTradingPoint/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 12:21:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../JLTradingPoint/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 12:22:16 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../JLTradingPoint/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 12:22:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../JLTradingPoint/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 12:22:29 UTC] PHP Warning:  require_once(/home2/webdetty/public_html/JLTradingPoint/../JLTradingPoint/public/bootstrap/app.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 47
+[05-Sep-2022 12:22:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../JLTradingPoint/public/bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 47
