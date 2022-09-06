@@ -69,3 +69,18 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 12:21:40 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../JLTradingPoint/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 12:21:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../JLTradingPoint/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 12:22:16 UTC] PHP Warning:  require(/home2/webdetty/public_html/JLTradingPoint/../JLTradingPoint/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 12:22:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../JLTradingPoint/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 34
+[05-Sep-2022 12:22:29 UTC] PHP Warning:  require_once(/home2/webdetty/public_html/JLTradingPoint/../JLTradingPoint/public/bootstrap/app.php): Failed to open stream: No such file or directory in /home2/webdetty/public_html/JLTradingPoint/index.php on line 47
+[05-Sep-2022 12:22:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/webdetty/public_html/JLTradingPoint/../JLTradingPoint/public/bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/webdetty/public_html/JLTradingPoint/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home2/webdetty/public_html/JLTradingPoint/index.php on line 47

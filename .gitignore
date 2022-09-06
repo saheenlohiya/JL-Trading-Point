@@ -16,5 +16,5 @@ yarn-error.log
 /.idea
 /.vscode
 .env.example
-.htaccess
 index.php
+htaccess_old
