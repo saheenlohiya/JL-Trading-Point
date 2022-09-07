@@ -35,7 +35,7 @@
                                     <div class="nk-block-head-content">
                                         <h4 class="nk-block-title">Register</h4>
                                         <div class="nk-block-des">
-                                            <p>Create New Dashlite Account</p>
+                                            <p>Create New Account</p>
                                         </div>
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@
                                     <div class="form-group">
                                         <div class="custom-control custom-control-xs custom-checkbox">
                                             <input type="checkbox" class="custom-control-input" id="checkbox">
-                                            <label class="custom-control-label" for="checkbox">I agree to Dashlite <a href="#">Privacy Policy</a> &amp; <a href="#"> Terms.</a></label>
+                                            <label class="custom-control-label" for="checkbox">I agree to <a href="#">Privacy Policy</a> &amp; <a href="#"> Terms.</a></label>
                                         </div>
                                     </div>
                                     <div class="form-group">
