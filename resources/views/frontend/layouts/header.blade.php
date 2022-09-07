@@ -40,8 +40,8 @@
                             </ul>
                         </li>
                     </ul>
-                    <button type="button" class="btn bg_skyblue m-2 text-uppercase">Login</button>
-                    <button type="button" class="btn bg_skyblue m-2 text-uppercase">Register</button>
+                    <a class="btn bg_skyblue m-2 text-uppercase" href="{{Route('user.login')}}">Login</a>
+                    <a class="btn bg_skyblue m-2 text-uppercase" href="{{Route('admin.registration')}}">Register</a>
                 </div>
             </div>
         </nav>

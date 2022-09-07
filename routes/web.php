@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomePageControllers;
+use App\Http\Controllers\LoginControllers;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,10 +15,23 @@ use App\Http\Controllers\HomePageControllers;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-Route::get('/', [HomePageControllers::class, 'index'])->name('home.page');
-Route::get('user/dashboard', [HomePageControllers::class, 'master'])->name('user.dashboard');
-Route::get('aboutus', [HomePageControllers::class, 'aboutus'])->name('aboutus');
-Route::get('contactus', [HomePageControllers::class, 'contactus'])->name('contactus');
+
+// Admin Login And Registration  //
+Route::controller(LoginControllers::class)->group(function(){
+    Route::get('login', 'userLogin')->name('user.login'); 
+    Route::post('user/login', 'userLoginPost')->name('user.login.post'); 
+    Route::get('admin', 'adminLogin')->name('admin.login'); 
+    Route::post('admin/login', 'adminLoginPost')->name('admin.login.post'); 
+    Route::get('registration', 'registration')->name('admin.registration'); 
+    Route::post('admin/registration/post', 'customRegistration')->name('admin.registration.post'); 
+    Route::get('admin/logout', 'logout')->name('admin.logout'); 
+    Route::get('admin/dashboard', 'adminDashboard')->name('admin.dashboard'); 
+    Route::get('user/dashboard', 'userDashboard')->name('user.dashboard'); 
+});
+
+// Pages //
+Route::controller(HomePageControllers::class)->group(function(){
+    Route::get('/','index')->name('home.page');
+    Route::get('aboutus','aboutus')->name('aboutus');
+    Route::get('contactus','contactus')->name('contactus');
+});
